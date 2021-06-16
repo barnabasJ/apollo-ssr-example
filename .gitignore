@@ -1,0 +1,49 @@
+# OS, IDE, ...
+.DS_Store
+.idea
+*.iml
+.project
+tmp
+sandbox
+
+# Development
+.gradle/
+**/node_modules
+/version.js
+/version.ts
+v/
+__pycache__
+.mypy_cache/
+
+# Build
+.awcache
+build
+dist
+es
+esm
+lib
+*.tgz
+__diff_output__
+*.tsbuildinfo
+storybook-static
+stats.json
+
+# Logs and Testing
+coverage
+logs
+*.log
+
+# Linter Cache files and Coverage reports
+coverage
+.eslintcache
+.stylelintcache
+
+# lighthouse tests
+*.report.html
+
+db/localdev/volumes/postgres_data/
+!db/localdev/volumes/fedev/*
+
+# cypress
+cypress/videos
+cypress/screenshots

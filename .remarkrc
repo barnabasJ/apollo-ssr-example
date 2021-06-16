@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "remark-preset-lint-recommended",
+    [
+      "remark-preset-lint-markdown-style-guide"
+    ],
+    [
+      "remark-lint-list-item-indent",
+      false
+    ]
+  ],
+  "settings": {
+    "bullet": "-",
+    "emphasis": "_",
+    "listItemIndent": 1,
+    "strong": "*"
+  }
+}
